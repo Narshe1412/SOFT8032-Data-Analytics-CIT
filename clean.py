@@ -4,7 +4,6 @@ Created on Wed Nov 22 20:24:20 2017
 
 @author: Manuel Colorado R00156054
 """
-import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -14,9 +13,17 @@ totalrows = len(df)
 df = df.dropna(how = 'all')
 
 '''
+stats = []
 for i in range(0, 105, 5):
     dropped = df.dropna(axis=1, thresh = (totalrows * (i/100)) )
     print ("Threshold: " + str(i/100) + " columns: " + str(len(dropped.columns)))
+
+    stats.append({'Threshold': i, 'columns remaining': len(dropped.columns)})
+dfstats = pd.DataFrame(stats)
+dfstats.set_index(dfstats['Threshold']).plot()
+plt.title("Amount of columns remaining")
+plt.show()
+
 
 Threshold: 0.0 columns: 135
 Threshold: 0.05 columns: 90
@@ -40,7 +47,7 @@ Threshold: 0.9 columns: 45
 Threshold: 0.95 columns: 40
 Threshold: 1.0 columns: 31 '''
 
-dropped = df.dropna(axis=1, thresh = (totalrows * 0.6))
+dropped = df.dropna(axis=1, thresh = (totalrows * 0.58))
 cormatrix = dropped.corr()
 sns.heatmap(cormatrix)
 plt.show()
@@ -53,10 +60,19 @@ top10attacks = dropped['attacktype1_txt'].value_counts().head(10)
 print (top10attacks)
 print ("")
 print ("########################")
-print ("#2 Top ten regions where attacks from point 1 occurred and number of people injured or killed")
+print ("#2 Top ten regions where attacks occurred and number of people injured or killed")
 print ("")
-
-
+dropped['woundpluskill'] = dropped['nkill'] + dropped['nwound']
+groupeddf = dropped.groupby('region_txt')
+top10regions = groupeddf['woundpluskill'].sum().sort_values(ascending = False)
+print(top10regions)
+print ("")
+print ("########################")
+print ("#3 Interesting report on the target of attacks")
+europe = dropped['region_txt'] == 'Western Europe'
+terrorists = dropped[europe].groupby('gname').count().sort_values(ascending = False, by='woundpluskill')
+terroristsTop10 = terrorists[1:11]
+print(terroristsTop10)
        
 cleared = dropped.drop(['eventid', 'imonth', 'iday',
                         'latitude', 'longitude',
@@ -71,18 +87,6 @@ cormatrix = cleared.corr()
 sns.heatmap(cormatrix)
 plt.show()
 print(cleared.columns)
-#df = df.dropna(axis=1, thresh= totalrows * 0.50)
-#print(df.isnull().sum() * 100 / totalrows)
 
-
-#dataset = df[['country','country_txt']]
-#print(dataset)
-'''
-2:	Top	ten	regions	where	attacks	from	point	1	occurred	and	number	of	people	injured	or	killed
-3:	Interesting	report	on	target of	attacks
-
-grouped = df.groupby(attacktype_txt)
-print(grouped.sum())
-print(df.attacktype1_txt)
-'''
-
+cleared.to_csv('terrordataset_cleaned.csv')
+print("CSV created -> terrordataset_cleaned.csv")
