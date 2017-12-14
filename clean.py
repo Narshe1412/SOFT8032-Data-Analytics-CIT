@@ -72,7 +72,7 @@ print ("#3 Interesting report on the target of attacks")
 europe = dropped['region_txt'] == 'Western Europe'
 terrorists = dropped[europe].groupby('gname').count().sort_values(ascending = False, by='woundpluskill')
 terroristsTop10 = terrorists[1:11]
-print(terroristsTop10)
+print(terroristsTop10['woundpluskill'])
        
 cleared = dropped.drop(['eventid', 'imonth', 'iday',
                         'latitude', 'longitude',

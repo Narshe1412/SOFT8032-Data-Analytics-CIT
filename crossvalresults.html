@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Consolas'; font-size:10pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Python 3.6.3 |Anaconda, Inc.| (default, Oct 15 2017, 03:27:45) [MSC v.1900 64 bit (AMD64)]</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Type &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IPython 6.1.0 -- An enhanced Interactive Python.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">1</span><span style=" color:#000080;">]:</span> runfile('C:/Users/mcolorado/dataanalysis/crossval.py', wdir='C:/Users/mcolorado/dataanalysis')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">###### Decision Tree Classifier CV ######</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Results obtained in 8.24 s.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  % (min_groups, self.n_splits)), Warning)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mean cross validation score: 0.7074351685953639</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score without cv: 0.9774162438676675</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score on test set 0.711652480188</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">###### Random Forest Classifier CV ######</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Results obtained in 28.65 s.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  % (min_groups, self.n_splits)), Warning)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-1-79774d48c422&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('C:/Users/mcolorado/dataanalysis/crossval.py', wdir='C:/Users/mcolorado/dataanalysis')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py&quot;</span>, line <span style=" color:#00ff00;">710</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py&quot;</span>, line <span style=" color:#00ff00;">101</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:/Users/mcolorado/dataanalysis/crossval.py&quot;</span>, line <span style=" color:#00ff00;">58</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    rf_scores = cross_val_score(rf_fit, X_train, y_train, cv = 5)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">342</span>, in <span style=" color:#ff00ff;">cross_val_score</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    pre_dispatch=pre_dispatch)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">206</span>, in <span style=" color:#ff00ff;">cross_validate</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    for train, test in cv.split(X, y, groups))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">779</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    while self.dispatch_one_batch(iterator):</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">625</span>, in <span style=" color:#ff00ff;">dispatch_one_batch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self._dispatch(tasks)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">588</span>, in <span style=" color:#ff00ff;">_dispatch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    job = self._backend.apply_async(batch, callback=cb)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">111</span>, in <span style=" color:#ff00ff;">apply_async</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    result = ImmediateResult(func)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">332</span>, in <span style=" color:#ff00ff;">__init__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self.results = batch()</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">&lt;listcomp&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">458</span>, in <span style=" color:#ff00ff;">_fit_and_score</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    estimator.fit(X_train, y_train, **fit_params)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\ensemble\forest.py&quot;</span>, line <span style=" color:#00ff00;">328</span>, in <span style=" color:#ff00ff;">fit</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    for i, t in enumerate(trees))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">779</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    while self.dispatch_one_batch(iterator):</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">625</span>, in <span style=" color:#ff00ff;">dispatch_one_batch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self._dispatch(tasks)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">588</span>, in <span style=" color:#ff00ff;">_dispatch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    job = self._backend.apply_async(batch, callback=cb)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">111</span>, in <span style=" color:#ff00ff;">apply_async</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    result = ImmediateResult(func)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">332</span>, in <span style=" color:#ff00ff;">__init__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self.results = batch()</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">&lt;listcomp&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\ensemble\forest.py&quot;</span>, line <span style=" color:#00ff00;">121</span>, in <span style=" color:#ff00ff;">_parallel_build_trees</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    tree.fit(X, y, sample_weight=curr_sample_weight, check_input=False)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\tree\tree.py&quot;</span>, line <span style=" color:#00ff00;">790</span>, in <span style=" color:#ff00ff;">fit</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    X_idx_sorted=X_idx_sorted)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\tree\tree.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">362</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">fit</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    builder.build(self.tree_, X, y, sample_weight, X_idx_sorted)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">KeyboardInterrupt</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">2</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">2</span><span style=" color:#000080;">]:</span> runfile('C:/Users/mcolorado/dataanalysis/crossval.py', wdir='C:/Users/mcolorado/dataanalysis')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">###### Decision Tree Classifier CV ######</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  % (min_groups, self.n_splits)), Warning)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Traceback <span style=" color:#4682b4;">(most recent call last)</span>:</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;&lt;ipython-input-2-79774d48c422&gt;&quot;</span>, line <span style=" color:#00ff00;">1</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    runfile('C:/Users/mcolorado/dataanalysis/crossval.py', wdir='C:/Users/mcolorado/dataanalysis')</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py&quot;</span>, line <span style=" color:#00ff00;">710</span>, in <span style=" color:#ff00ff;">runfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    execfile(filename, namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\spyder\utils\site\sitecustomize.py&quot;</span>, line <span style=" color:#00ff00;">101</span>, in <span style=" color:#ff00ff;">execfile</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    exec(compile(f.read(), filename, 'exec'), namespace)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:/Users/mcolorado/dataanalysis/crossval.py&quot;</span>, line <span style=" color:#00ff00;">40</span>, in <span style=" color:#ff00ff;">&lt;module&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    dt_scores = cross_val_score(dt_fit, X_train, y_train, cv = 5)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">342</span>, in <span style=" color:#ff00ff;">cross_val_score</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    pre_dispatch=pre_dispatch)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">206</span>, in <span style=" color:#ff00ff;">cross_validate</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    for train, test in cv.split(X, y, groups))</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">779</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    while self.dispatch_one_batch(iterator):</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">625</span>, in <span style=" color:#ff00ff;">dispatch_one_batch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self._dispatch(tasks)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">588</span>, in <span style=" color:#ff00ff;">_dispatch</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    job = self._backend.apply_async(batch, callback=cb)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">111</span>, in <span style=" color:#ff00ff;">apply_async</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    result = ImmediateResult(func)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\_parallel_backends.py&quot;</span>, line <span style=" color:#00ff00;">332</span>, in <span style=" color:#ff00ff;">__init__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    self.results = batch()</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">__call__</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\externals\joblib\parallel.py&quot;</span>, line <span style=" color:#00ff00;">131</span>, in <span style=" color:#ff00ff;">&lt;listcomp&gt;</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    return [func(*args, **kwargs) for func, args, kwargs in self.items]</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_validation.py&quot;</span>, line <span style=" color:#00ff00;">458</span>, in <span style=" color:#ff00ff;">_fit_and_score</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    estimator.fit(X_train, y_train, **fit_params)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  File <span style=" color:#00ff00;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\tree\tree.py&quot;</span>, line <span style=" color:#00ff00;">790</span>, in <span style=" color:#ff00ff;">fit</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    X_idx_sorted=X_idx_sorted)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\tree\tree.py&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">362</span><span style=" color:#4682b4;">, in </span><span style=" color:#9400d3;">fit</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    builder.build(self.tree_, X, y, sample_weight, X_idx_sorted)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">KeyboardInterrupt</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">3</span><span style=" color:#000080;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">3</span><span style=" color:#000080;">]:</span> runfile('C:/Users/mcolorado/dataanalysis/crossval.py', wdir='C:/Users/mcolorado/dataanalysis')</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">###### Decision Tree Classifier CV ######</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  % (min_groups, self.n_splits)), Warning)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mean cross validation score: 0.7085715489967728</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score without cv: 0.9764518428445638</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score on test set 0.712435182467</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Results obtained in 97.08 s.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">###### Random Forest Classifier CV ######</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">C:\Users\mcolorado\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\model_selection\_split.py:605: Warning: The least populated class in y has only 1 members, which is too few. The minimum number of members in any class cannot be less than n_splits=5.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">  % (min_groups, self.n_splits)), Warning)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">mean cross validation score: 0.7475506407208862</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score without cv: 0.9683089437712273</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">score on test set 0.752822620096</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Results obtained in 291.23 s.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Feature ranking:</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">1. feature 0 (0.133045)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2. feature 2 (0.125645)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">3. feature 15 (0.108005)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">4. feature 3 (0.071997)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">5. feature 14 (0.071094)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">6. feature 29 (0.055007)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">7. feature 20 (0.049332)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">8. feature 22 (0.046185)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">9. feature 23 (0.043790)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">10. feature 16 (0.041976)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">11. feature 9 (0.032066)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">12. feature 18 (0.030325)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">13. feature 13 (0.028195)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">14. feature 4 (0.025817)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">15. feature 27 (0.022247)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">16. feature 21 (0.020717)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">17. feature 10 (0.016056)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">18. feature 25 (0.011567)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">19. feature 19 (0.009927)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">20. feature 5 (0.009486)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">21. feature 11 (0.009364)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">22. feature 26 (0.007357)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">23. feature 8 (0.007182)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">24. feature 28 (0.006357)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">25. feature 24 (0.006239)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">26. feature 1 (0.003885)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">27. feature 6 (0.002636)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">28. feature 12 (0.001932)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">29. feature 7 (0.001626)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">30. feature 17 (0.000944)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+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
+2/UdUrFSde2svr4e27Ztw0MPPdRlmdw2IoTApk2bMGfOHIexERERCA8PtytX
+qq7d+bykSJXZeVv5+9//LvlaZ6TKlWqTo7q6sh1YLBZcunQJFosFFy9etLtm
+x1G5UtuBs/dLah9z1kZHzp07h4qKCmRmZgIAvLy84OPj47Qsqf3LkfLycowd
+OxbBwcEu1a/jNni9+mTSb2hogFartU1rNBqHO0lHtbW1+OKLL5CQkCAbm5ub
+i+joaCxYsABnzpzpstxqtSI2NhYBAQFISkqSLbOkpARBQUGIiYlxqX4TJkxA
+SUkJgKs/szte5NYx7uTJkxg1ahSAqzvOqVOnXGrzX//6V8yYMcNp7DPPPAOt
+Vot3330X//u//ytZ52+//RZ79uxBQkICpk2bhn379nWJmTBhAioqKtDc3IyL
+Fy9i+/btdu2RsnbtWjz55JPQarVYsmQJVq5c6TRerq6/+93vsHr1avTr53yT
+l3q/9uzZgxEjRiAsLEw2Vk53Py+57RCA022lI5VKheTkZMTFxdlue3I9OtZV
+bjsICgrCkiVLMHr0aIwaNQrDhg1DcnKybLly20HHWFf2MVd999138Pf3x4MP
+PoiJEyfioYceQmtrq8uvl9q/OiosLOxWAne0DfZEn0z6QuIsU6lv9o4uXLiA
+e+65B2vXrrXrGUp55JFHcPToURw4cACjRo3CE0880SWmf//+OHDgAOrr61FZ
+WYmDBw86LO/ixYt48cUXHSZOqfr99a9/xeuvv464uDicP38eXl5e3W6Ho9gX
+X3wRarUa999/v9PYF198EXV1dbj//vvt7rXUkcViwZkzZ7B3716sWbMG6enp
+XT6fiIgILF26FElJSfjlL3+JmJgYW4/IkTfffBOvvPIK6urq8Morr9h6XI44
+q+uHH36IgIAA2fOdHb1fGzdu7LKDdudzcFXnMl3ZDgE43FY6++c//4nPP/8c
+paWleP3111FRUdFrdZXbDs6cOYPi4mLU1NSgsbERra2t+Nvf/iZbrrPtoGOs
+Wq2W3ce6w2Kx4PPPP8cjjzyCL774AoMHD3Z67LAjqf2rI7PZjJKSEtx7770u
+10dqG+yx6x4g8oD/+7//E8nJybbpFStWiBUrVjiMN5vNIjk5Wbz88suSy2tq
+ahyOozlbds3y5cu7jL12fN1XX30l/P39RXBwsAgODhb9+/cXWq1WnDhxwqX6
+HT58WMTHx0vGjRs3TjQ2Ngohro6Ljhs3zmmZ+fn5YsqUKaK1tdU2T279tbW1
+trZ0fj9SUlLExx9/bJsODQ0Vp06dcvxmCSH++7//W7z++ut28zqXO3ToUNHe
+3i6EuHoMZciQIQ5jHdX1mqeffloEBQWJ4OBgMWLECDFw4EBx//3328U4eg+u
+XLkiAgIC7O4t5ez96jj+LVXX7n5eUuU4a/+1bUWO1PECR+V2bpNUXeW2g02b
+NokFCxbYpgsKCsQjjzxitx6pch1tB51j5fYxuTZ2duLECREcHGybrqioEDNn
+zpQtS2r/6mzLli0iKSlJcplUmVLb4PXokz19V24NcY0QApmZmYiIiMDjjz/u
+UvknTpyw/f+DDz7ocrS/qanJdmT+0qVL+Mc//uH0zqBRUVE4deoUamtrUVtb
+C41Gg88//xwjR450WL9rP/vb29vxwgsvYOHChZJxHW+BUVBQgFmzZjkss6ys
+DKtWrUJJSQkGDRrk9P2prq62/b+kpMRh++666y7s2rULwNWhHrPZjOHDh3eJ
+u9ae48eP4/3335fttQQGBmL37t0AgF27djn9WStX15UrV6K+vh61tbUoLCzE
+9OnT7XqZzraRa5/ttTvI9mR76qg7n5fcdnhN523l4Ycf7hLT2tqK8+fP2/6/
+Y8cOl89i6chRXeW2g9GjR2Pv3r24ePEihBAoLy9HRESEbLlS24FUrLN9rCdG
+jhwJrVaLw4cPA7g6Bh8ZGen0NVL7l5Tu9to7b4PXrVe+Ojxg27ZtIiwsTISG
+hooXXnjBYdyePXsEABEVFSViYmJETEyM2LZtm215RkaGGDlypFCr1SIoKEj8
+5S9/EXPnzhUTJkwQUVFR4s4777T1zK758ssvRWxsrIiKihJ6vb7LEXWpMjvq
+eBaFo/qtXbtWhIWFibCwMLF06VJRUVEhGff999+L6dOnC51OJ6ZPny6am5sd
+ljl27Fih0Whs8xYuXOgw9te//rXQ6/UiKipK/OpXvxL19fWS7WpraxP333+/
+0Ov1YuLEiaK8vFzyc/jZz34mIiIiRHR0tPjHP/4h+37t2bNHTJo0SURHR4vJ
+kycLk8nkMFaqro58/PHHXc7ecbaNzJ8/X7z55puyse+//74ICgoSXl5eIiAg
+QCQnJ0vWtTufl9R2KFVm523lWs+4o6NHj4ro6GgRHR0tIiMju+wzUuVKtclR
+XV3ZDrKzs0V4eLjQ6/Vi7ty5tjN9nL2vUtuB3D4thPSZSnL7ZWdffPGFiIuL
+E1FRUWLWrFni9OnTTsuS2r86a21tFX5+fqKlpaXLMkf167wNXi/ehoGISEH6
+5PAOERH1DJM+EZGCMOkTESkIkz4RkYIw6RMRKQiTPhGRgjDpExEpyP8D8Kfc
+amEopR0AAAAASUVORK5CYII=
+" /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">4</span><span style=" color:#000080;">]:</span> </p></body></html>
